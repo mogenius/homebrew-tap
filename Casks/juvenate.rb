@@ -4,21 +4,21 @@ cask "juvenate" do
 
   on_macos do
     on_arm do
-      sha256 "89bc16ac4080416027fe0e27a9d7cb39f547b323bc3fd487b7c8d335db8b8515"
+      sha256 "9cb074c1627cc9350636d34717309f41c4136e30f4c3fa8a745aed45573938f5"
       url "https://github.com/mogenius/juvenate/releases/download/v#{version}/juvenate_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f930da5d9aa659c92b245be17fec570839d0fe04b14945e363f1c1debf897a07"
+      sha256 "f9d6f9d0f5f5e4b0bbc2da292387c45998cb7e1525a4632e4b06ff5243609a4f"
       url "https://github.com/mogenius/juvenate/releases/download/v#{version}/juvenate_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "c70d38b657eb53855d2038c391b529934d2668068d6004b4465b799f5a4ce53a"
+      sha256 "89c66a6661b52fce3d9ee4aac6acd9c2f347778a1b45483bda75b6232e41dbd6"
       url "https://github.com/mogenius/juvenate/releases/download/v#{version}/juvenate_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "54231f07521207eee632f5b34778644f5f0d7a74b8f42dbf2bdd5f688372d095"
+      sha256 "d4608288c613085f4fb826acc54cb651f8a742622d0c00eb95c72f9827c43516"
       url "https://github.com/mogenius/juvenate/releases/download/v#{version}/juvenate_#{version}_linux_amd64.tar.gz"
     end
   end
